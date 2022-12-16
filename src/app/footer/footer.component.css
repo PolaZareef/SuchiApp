@@ -1,0 +1,25 @@
+*{
+    font-family: 'jokerman';
+}
+.bg-primary{
+    background-color: #ccbba7;
+}
+.row{
+    margin-left: 100px;
+}
+p{
+    font-size: large;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    .coll{
+        margin-bottom: 30px;
+    }
+    .imggg{
+        margin-right: 50px;
+    }
+    .row{
+        margin-left: 0px;
+    }
+}
+

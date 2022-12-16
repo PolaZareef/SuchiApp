@@ -1,0 +1,87 @@
+*{
+    font-family: 'jokerman';
+}
+.imgg{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+p{
+    color: white;
+    padding-top: 10px;
+}
+.row{
+    position: absolute;
+    text-align: center;
+    margin-top: 7%;
+}
+.btn{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 1150px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.btn1{
+    position: absolute;
+    margin-top:35%;
+    width: 100px;
+    margin-left: 45%;
+    color: white;
+    background: none;
+    border: 1px solid rgba(239, 132, 6, 0.6);
+    border-radius: 15px;
+}
+.carousel-control-prev-icon{
+   margin-left: -126px;
+   color: rgb(255, 255, 255);
+}
+.carousel-control-next-icon{
+    margin-right: -122px;
+}
+@media only screen and (max-width: 600px) {
+    .carousel-control-prev-icon{
+        margin-left: -40px;
+    }
+    .carousel-control-next-icon{
+        margin-right: -30px;
+    }
+    .imgg{
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 100px;
+    }
+    .btn{
+        margin-top: 15px;
+        margin-left: 295px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 15px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .btn1{
+        margin-top:35%;
+        margin-left: 40%;
+    }
+    .col-sm-3{
+        width: 20%;
+        margin-left: 15px;
+    }
+    .suimage{
+        width: 100%;
+    }
+    p{
+        font-size: 10px;
+    }
+    
+}
+@media only screen and (max-width: 400px) {
+    .imgg{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 90px;
+    }
+}
